@@ -384,7 +384,7 @@ Estou com dificuldade em entender SLA. Pode me ajudar?
 - [Azure AI Agent Service](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview)
 
 ### Challenge
-- [Repositório Azure Frontier Girls](https://github.com/AZFRONTIERGIRLS/AzureFrontierGirls-AI-Challenge)
+- [Repositório Azure Frontier Girls](https://github.com/AZFRONTIERGIRLS/AzureFrontierGirls-AI-Challenge](https://github.com/Miyake-Diogo/AzureFrontierGirls-AI-Challenge)
 
 ---
 
@@ -410,4 +410,5 @@ Este projeto foi desenvolvido para fins educacionais como parte do Azure Frontie
 [![AI](https://img.shields.io/badge/AI-Foundry-brightgreen?style=for-the-badge)](https://ai.azure.com)
 
 </div>
+
 
