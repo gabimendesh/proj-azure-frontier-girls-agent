@@ -1,0 +1,103 @@
+---
+
+**Desmistificando o Azure: Um Guia para Iniciantes sobre Arquitetura e Serviços Centrais**
+
+**Introdução: Seu Primeiro Passo na Nuvem Azure**
+
+Bem-vinda ao universo da computação em nuvem! Se você está curiosa sobre como aplicações modernas são construídas e operadas em escala global, pousou no lugar certo. Este guia foi criado para te dar uma visão sólida dos fundamentos do Microsoft Azure, uma das maiores plataformas de nuvem do mundo.
+
+A ideia é pegar os conceitos mais importantes e quebrá-los em partes simples e digestíveis. Usando os tópicos do exame oficial “AZ-900: Microsoft Azure Fundamentals”, vamos explorar a arquitetura base do Azure, seus serviços de computação, a rede que conecta tudo e o armazenamento onde seus dados vivem.
+
+---
+
+### **1. A Base Global: A Arquitetura Física do Azure**
+
+Antes de rodar qualquer aplicação na nuvem, é essencial entender onde ela existe fisicamente. O Azure não é apenas um conceito abstrato; ele é uma infraestrutura gigantesca, distribuída pelo mundo.
+
+#### **1.1. Regiões e Datacenters do Azure**
+
+Uma Região Azure é uma localização geográfica específica, como “East US” ou “West Europe”. Cada região contém um ou mais Datacenters — prédios cheios de servidores, equipamentos de rede e sistemas de armazenamento que sustentam seus recursos em nuvem. Ter várias regiões espalhadas é uma vantagem estratégica: você aproxima suas aplicações dos usuários (ganhando velocidade) e pode seguir leis locais de residência de dados.
+
+#### **1.2. Garantindo Resiliência: Availability Zones**
+
+Dentro de uma região, podem existir múltiplas Availability Zones. Cada zona é um datacenter fisicamente separado, com energia, refrigeração e rede independentes. Elas ficam próximas o suficiente para conexões rápidas, mas distantes o bastante para que um desastre não derrube todas de uma vez. Essa é a estratégia central para criar aplicações altamente disponíveis.
+
+#### **1.3. Organização Lógica: Subscriptions e Resource Groups**
+
+O Azure oferece uma hierarquia clara para organizar todos os seus serviços:
+
+* **Management Groups:** o nível máximo de organização, ótimo para grandes empresas aplicarem políticas de segurança e acesso.
+* **Subscriptions:** sua conta principal e fronteira de cobrança. Tudo o que você cria vive dentro de uma subscription.
+* **Resource Groups:** containers lógicos para agrupar recursos de um projeto ou aplicação — VM, banco, storage, tudo junto para organizar e gerenciar facilmente.
+
+Com essa base física e lógica, podemos seguir para os serviços que dão vida a essa estrutura global.
+
+---
+
+### **2. O Núcleo do Poder da Nuvem: Azure Compute**
+
+“Compute” é simplesmente o poder de processamento que executa seus códigos e aplicações. O Azure oferece várias formas de acessar esse poder, cada uma com seu propósito.
+
+#### **2.1. Comparando os Principais Tipos de Compute**
+
+| Tipo                 | Ideal para...                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------ |
+| **Virtual Machines** | Migrar aplicações existentes ou quando você precisa controle total do SO.            |
+| **Containers**       | Empacotar apps com dependências de forma leve e portátil.                            |
+| **Functions**        | Executar trechos pequenos de código em resposta a eventos, sem gerenciar servidores. |
+
+#### **2.2. Um Olhar Mais Atento às VMs**
+
+Uma VM Azure é como um computador virtual rodando no datacenter. Ela funciona como um servidor físico completo, com:
+
+* CPU
+* Memória
+* Armazenamento
+* Rede
+
+Mas uma VM isolada não faz milagre; ela precisa de conexões seguras e inteligentes — e aí entra o Networking.
+
+---
+
+### **3. Conectando Seus Serviços: Fundamentos de Rede no Azure**
+
+Depois que você tem recursos de compute, precisa de uma forma organizada e segura de fazer tudo conversar.
+
+#### **3.1. Sua Rede Privada na Nuvem**
+
+A **Virtual Network (VNet)** é sua rede privada e isolada no Azure, semelhante a uma rede corporativa tradicional, mas totalmente definida por software. Ela te permite controlar tráfego, proteger acesso e garantir isolamento.
+
+#### **3.2. Endpoints Públicos e Privados**
+
+* **Public Endpoint:** IP acessível pela internet inteira, perfeito para apps públicas.
+* **Private Endpoint:** acessível apenas dentro da sua VNet, nunca exposto à internet — excelente para segurança máxima.
+
+Agora que recursos estão rodando e conectados, precisam de um “lar” para os dados.
+
+---
+
+### **4. Onde Seus Dados Vivem: Azure Storage**
+
+Aplicações úteis precisam gravar e ler dados. O Azure oferece serviços variados para diferentes tipos de armazenamento.
+
+#### **4.1. Conceitos Centrais de Storage**
+
+* **Storage Tiers:** níveis (Hot, Cool, Archive) que equilibram custo e frequência de acesso.
+* **Redundância:** cópias automáticas dos seus dados para garantir durabilidade mesmo em falhas de hardware ou desastres regionais.
+
+Essas ferramentas permitem otimizar custos e manter resiliência e velocidade onde importa.
+
+---
+
+### **Conclusão: Construindo a Sua Base**
+
+Você deu seu primeiro passo na jornada Azure, passando pelos quatro pilares centrais:
+
+1. **Arquitetura:** datacenters globais e organização lógica.
+2. **Compute:** VMs, containers e functions.
+3. **Networking:** VNets e endpoints para conectar tudo com segurança.
+4. **Storage:** serviços duráveis e flexíveis para guardar seus dados.
+
+Esse conhecimento é o ponto de partida perfeito — tanto para dominar o Azure quanto para brilhar no exame AZ-900 e acelerar sua carreira na nuvem.
+
+---

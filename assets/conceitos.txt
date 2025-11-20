@@ -1,0 +1,138 @@
+
+
+## **AZ-900 – Conceitos Essenciais: Um Guia Simplificado dos Fundamentos de Nuvem**
+
+### **Introdução: Sua Jornada para a Nuvem Começa Aqui**
+
+Bem-vinda! Este guia foi criado para simplificar os conceitos mais essenciais de computação em nuvem abordados no exame *Microsoft Azure Fundamentals (AZ-900)*. A ideia é construir uma base sólida para qualquer pessoa que esteja dando seus primeiros passos no universo da cloud, transformando temas complexos em explicações claras e fáceis de assimilar.
+
+---
+
+## **1. O que é Computação em Nuvem?**
+
+Computação em nuvem é a entrega de serviços computacionais — incluindo servidores, armazenamento, redes e software — pela internet, permitindo que você alugue poder computacional em vez de comprar e manter infraestrutura própria.
+
+### **1.1. O Modelo Baseado em Consumo**
+
+A nuvem opera no modelo baseado em consumo. Em outras palavras, você paga apenas pelos recursos que usar, pelo tempo que usar — como acontece com a conta de energia em casa. Isso habilita um controle financeiro mais inteligente e elimina a necessidade de grandes investimentos iniciais em hardware.
+
+### **1.2. O Modelo de Responsabilidade Compartilhada**
+
+O Modelo de Responsabilidade Compartilhada define como as obrigações de segurança são divididas entre você (cliente) e o provedor de nuvem (como a Microsoft).
+
+**O provedor é responsável por:**
+A segurança *da* nuvem — estrutura física, datacenters, rede e hosts de virtualização.
+
+**Você é responsável por:**
+A segurança *dentro* da nuvem — seus dados, seus aplicativos e as permissões de acesso.
+
+Para o exame AZ-900, é essencial saber quem faz o quê em diferentes cenários.
+
+### **1.3. Computação Serverless**
+
+Serverless é um modelo em que você executa código sem se preocupar com servidores. O provedor cuida de provisionamento, escalabilidade e manutenção da infraestrutura. Na prática, você escreve o código e a nuvem cuida do resto — acelerando o ciclo de desenvolvimento.
+
+Com esses pilares definidos, é hora de entender por que tantas empresas migram para a nuvem.
+
+---
+
+## **2. Principais Benefícios de Usar Serviços de Nuvem**
+
+Adotar a nuvem traz benefícios claros em relação aos ambientes tradicionais.
+
+### **2.1. Disponibilidade e Escalabilidade**
+
+* **Alta Disponibilidade:** Capacidade de manter um serviço funcionando mesmo diante de falhas. Isso é alcançado por meio de redundância e múltiplos datacenters.
+* **Escalabilidade:** Ajuste de recursos conforme a demanda.
+
+  * **Vertical (scale up):** aumentar capacidade de um recurso existente.
+  * **Horizontal (scale out):** adicionar mais instâncias para dividir a carga.
+
+### **2.2. Confiabilidade e Previsibilidade**
+
+* **Confiabilidade:** habilidade de se recuperar de falhas e continuar operando corretamente.
+* **Previsibilidade:** desempenho consistente e custos que podem ser estimados com precisão usando ferramentas de cálculo.
+
+### **2.3. Segurança e Governança**
+
+A nuvem oferece um arsenal robusto de políticas, tecnologias e controles que fortalecem a segurança — desde proteção física até defesa digital contra ameaças. Além disso, ferramentas de governança garantem conformidade regulatória e padrões corporativos.
+
+### **2.4. Gerenciabilidade**
+
+Gerenciar a nuvem é rápido e fluido: você provisiona recursos, configura redes e opera aplicações por portais gráficos ou automações. Menos fricção, mais entrega.
+
+Com esses benefícios postos na mesa, vamos aos modelos de implantação.
+
+---
+
+## **3. Modelos de Implantação em Nuvem**
+
+Um modelo define onde sua infraestrutura está e quem a controla.
+
+| Modelo            | Definição                                                                                          | Melhor caso de uso                                                                              |
+| ----------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Nuvem Pública** | Recursos operados por um provedor externo e entregues pela internet. Infraestrutura compartilhada. | Uma startup que precisa escalar rápido sem custo inicial.                                       |
+| **Nuvem Privada** | Recursos usados exclusivamente por uma única organização.                                          | Instituições financeiras que exigem controle total e conformidade rígida.                       |
+| **Nuvem Híbrida** | Combinação da pública com a privada, com interoperabilidade entre elas.                            | Um varejista que guarda dados sensíveis internamente e usa a nuvem pública para picos sazonais. |
+
+Depois de escolher *onde* sua nuvem vive, você escolhe *como* vai consumi-la.
+
+---
+
+## **4. Modelos de Serviço (a famosa pilha “as-a-Service”)**
+
+Os modelos de serviço definem o nível de controle que você mantém e o quanto o provedor assume.
+
+Uma analogia clássica é o “Pizza-as-a-Service”:
+
+* **On-Premises:** você faz a pizza inteira do zero.
+* **IaaS:** você compra um kit e assa em casa.
+* **PaaS:** você pede a pizza pronta, mas come na sua mesa.
+* **SaaS:** você vai ao restaurante e só aproveita — tudo é gerenciado pelo fornecedor.
+
+### **4.1. Comparando IaaS, PaaS e SaaS**
+
+“Você” = cliente;
+“Provedor” = provedor de nuvem.
+
+| Gerenciado por      | On-Premises | IaaS     | PaaS     | SaaS     |
+| ------------------- | ----------- | -------- | -------- | -------- |
+| Aplicações          | Você        | Você     | Você     | Provedor |
+| Dados               | Você        | Você     | Você     | Provedor |
+| Runtime             | Você        | Você     | Provedor | Provedor |
+| Middleware          | Você        | Você     | Provedor | Provedor |
+| Sistema Operacional | Você        | Você     | Provedor | Provedor |
+| Virtualização       | Você        | Provedor | Provedor | Provedor |
+| Servidores          | Você        | Provedor | Provedor | Provedor |
+| Armazenamento       | Você        | Provedor | Provedor | Provedor |
+| Rede                | Você        | Provedor | Provedor | Provedor |
+
+### **4.2. Entendendo Cada Modelo**
+
+#### **1. IaaS — Infraestrutura como Serviço**
+
+*Você aluga blocos fundamentais como VMs, storage e redes.*
+**Melhor uso:** migração lift-and-shift com controle total.
+
+#### **2. PaaS — Plataforma como Serviço**
+
+*Ambiente completo para desenvolver, testar e entregar software.*
+**Melhor uso:** equipes que querem focar apenas no código.
+
+#### **3. SaaS — Software como Serviço**
+
+*Aplicações completas rodando na nuvem, acessadas via navegador.*
+**Melhor uso:** e-mail, armazenamento, CRM, colaboração.
+
+---
+
+## **5. Resumo dos Conceitos-Chave**
+
+Leve estes pilares com você ao longo da jornada:
+
+* A nuvem segue um modelo baseado em consumo: pague pelo que usar.
+* O Modelo de Responsabilidade Compartilhada define quem cuida do quê.
+* Os modelos de serviço — IaaS, PaaS, SaaS — representam níveis diferentes de controle.
+* Os modelos de implantação — Pública, Privada e Híbrida — definem onde a infraestrutura está.
+
+---

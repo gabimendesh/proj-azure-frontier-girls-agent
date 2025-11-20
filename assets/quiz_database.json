@@ -1,0 +1,472 @@
+{
+  "iaas": [
+    {
+      "question": "Qual serviço Azure é um exemplo de IaaS?",
+      "options": [
+        "A) Azure Functions",
+        "B) Azure Virtual Machines",
+        "C) Azure SQL Database",
+        "D) Microsoft 365"
+      ],
+      "correct": "B",
+      "explanation": "Azure Virtual Machines é IaaS porque fornece infraestrutura virtualizada onde você gerencia o sistema operacional, aplicativos e configurações.",
+      "difficulty": "basico"
+    },
+    {
+      "question": "No modelo IaaS, quem é responsável pelo sistema operacional?",
+      "options": [
+        "A) Apenas a Microsoft",
+        "B) Apenas o cliente",
+        "C) Responsabilidade compartilhada",
+        "D) Nenhuma das anteriores"
+      ],
+      "correct": "B",
+      "explanation": "No IaaS, o cliente é totalmente responsável pelo gerenciamento do sistema operacional, incluindo patches, atualizações e segurança.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "Qual das seguintes é uma característica do IaaS?",
+      "options": [
+        "A) Você gerencia apenas os dados",
+        "B) Você gerencia SO, middleware e runtime",
+        "C) Você não gerencia nada",
+        "D) Microsoft gerencia aplicações"
+      ],
+      "correct": "B",
+      "explanation": "No IaaS você gerencia sistema operacional, middleware, runtime e suas aplicações. Microsoft gerencia hardware, rede e virtualização.",
+      "difficulty": "avancado"
+    }
+  ],
+  "paas": [
+    {
+      "question": "Qual é uma vantagem principal do PaaS?",
+      "options": [
+        "A) Controle total do hardware",
+        "B) Gerenciamento reduzido de infraestrutura",
+        "C) Acesso físico aos servidores",
+        "D) Custos fixos mensais"
+      ],
+      "correct": "B",
+      "explanation": "PaaS reduz a carga de gerenciamento de infraestrutura, permitindo que desenvolvedores foquem no código e aplicação.",
+      "difficulty": "basico"
+    },
+    {
+      "question": "Qual serviço Azure é exemplo de PaaS?",
+      "options": [
+        "A) Azure Virtual Machines",
+        "B) Azure App Service",
+        "C) Servidor físico próprio",
+        "D) Azure Virtual Network"
+      ],
+      "correct": "B",
+      "explanation": "Azure App Service é PaaS - você gerencia apenas o código da aplicação, Microsoft cuida da infraestrutura.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "No PaaS, qual camada você NÃO gerencia?",
+      "options": [
+        "A) Aplicação",
+        "B) Dados",
+        "C) Sistema Operacional",
+        "D) Configurações da aplicação"
+      ],
+      "correct": "C",
+      "explanation": "No PaaS, a Microsoft gerencia o sistema operacional. Você gerencia apenas a aplicação e dados.",
+      "difficulty": "avancado"
+    }
+  ],
+  "saas": [
+    {
+      "question": "Qual é exemplo de SaaS?",
+      "options": [
+        "A) Azure Virtual Machines",
+        "B) Azure App Service",
+        "C) Microsoft 365",
+        "D) Azure Storage"
+      ],
+      "correct": "C",
+      "explanation": "Microsoft 365 é SaaS - aplicação pronta para uso via internet, você só utiliza.",
+      "difficulty": "basico"
+    },
+    {
+      "question": "No modelo SaaS, o que o cliente gerencia?",
+      "options": [
+        "A) Hardware e software",
+        "B) Apenas configurações e dados do usuário",
+        "C) Sistema operacional",
+        "D) Infraestrutura de rede"
+      ],
+      "correct": "B",
+      "explanation": "No SaaS, o cliente gerencia apenas configurações e dados. Tudo mais é gerenciado pelo provedor.",
+      "difficulty": "intermediario"
+    }
+  ],
+  "storage": [
+    {
+      "question": "Qual tier de armazenamento Azure é mais econômico para dados raramente acessados?",
+      "options": [
+        "A) Hot",
+        "B) Cool",
+        "C) Archive",
+        "D) Premium"
+      ],
+      "correct": "C",
+      "explanation": "Archive é o tier mais econômico para armazenamento de longo prazo de dados que são raramente acessados (backup, compliance).",
+      "difficulty": "basico"
+    },
+    {
+      "question": "Qual serviço Azure oferece armazenamento de objetos não estruturados?",
+      "options": [
+        "A) Azure Files",
+        "B) Azure Disk Storage",
+        "C) Azure Blob Storage",
+        "D) Azure Queue Storage"
+      ],
+      "correct": "C",
+      "explanation": "Azure Blob Storage é projetado para armazenar grandes quantidades de dados não estruturados como texto, imagens, vídeos.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "Qual o tempo típico de recuperação de dados do tier Archive?",
+      "options": [
+        "A) Milissegundos",
+        "B) Segundos",
+        "C) Minutos",
+        "D) Horas"
+      ],
+      "correct": "D",
+      "explanation": "Dados no Archive tier podem levar de 1 a 15 horas para serem recuperados (processo de rehydration).",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "Qual serviço oferece compartilhamento de arquivos SMB na nuvem?",
+      "options": [
+        "A) Blob Storage",
+        "B) Azure Files",
+        "C) Disk Storage",
+        "D) Queue Storage"
+      ],
+      "correct": "B",
+      "explanation": "Azure Files oferece compartilhamentos de arquivos totalmente gerenciados acessíveis via protocolo SMB.",
+      "difficulty": "avancado"
+    }
+  ],
+  "cloud_concepts": [
+    {
+      "question": "Qual modelo de nuvem combina infraestrutura local com recursos em nuvem pública?",
+      "options": [
+        "A) Nuvem Pública",
+        "B) Nuvem Privada",
+        "C) Nuvem Híbrida",
+        "D) Nuvem Comunitária"
+      ],
+      "correct": "C",
+      "explanation": "Nuvem Híbrida combina recursos locais (on-premises) com nuvem pública, permitindo flexibilidade e portabilidade de dados.",
+      "difficulty": "basico"
+    },
+    {
+      "question": "O que significa CapEx?",
+      "options": [
+        "A) Capital Expenditure - Investimento inicial em infraestrutura",
+        "B) Capacity Expenditure - Gastos com capacidade",
+        "C) Capital Experience - Experiência em capital",
+        "D) Capacity Expert - Especialista em capacidade"
+      ],
+      "correct": "A",
+      "explanation": "CapEx (Capital Expenditure) refere-se a gastos iniciais em infraestrutura física, como servidores e datacenters.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "Qual o principal benefício financeiro da nuvem?",
+      "options": [
+        "A) Aumentar CapEx",
+        "B) Mudar de CapEx para OpEx",
+        "C) Eliminar todos os custos",
+        "D) Manter custos fixos"
+      ],
+      "correct": "B",
+      "explanation": "A nuvem permite mudar de CapEx (investimento inicial) para OpEx (pagamento conforme uso), reduzindo custos iniciais.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "O que é elasticidade na nuvem?",
+      "options": [
+        "A) Capacidade de adicionar recursos permanentemente",
+        "B) Capacidade de escalar recursos automaticamente conforme demanda",
+        "C) Resistência a falhas",
+        "D) Custo fixo mensal"
+      ],
+      "correct": "B",
+      "explanation": "Elasticidade é a capacidade de escalar recursos para cima ou para baixo automaticamente baseado na demanda real.",
+      "difficulty": "avancado"
+    }
+  ],
+  "sla": [
+    {
+      "question": "Um serviço Azure com SLA de 99.9% pode ter quanto tempo de inatividade por mês?",
+      "options": [
+        "A) 43.2 minutos",
+        "B) 1.44 horas",
+        "C) 7.2 horas",
+        "D) 24 horas"
+      ],
+      "correct": "A",
+      "explanation": "99.9% de uptime = 0.1% de downtime. Em 30 dias: 30 * 24 * 60 * 0.001 = 43.2 minutos.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "Se dois serviços em série têm SLA de 99.9% cada, qual o SLA composto?",
+      "options": [
+        "A) 99.9%",
+        "B) 99.8%",
+        "C) 99.95%",
+        "D) 100%"
+      ],
+      "correct": "B",
+      "explanation": "SLA composto = 0.999 × 0.999 = 0.998 (99.8%). Cada serviço em série reduz o SLA total.",
+      "difficulty": "avancado"
+    },
+    {
+      "question": "O que significa SLA?",
+      "options": [
+        "A) Service Level Agreement",
+        "B) System Level Access",
+        "C) Storage Level Access",
+        "D) Security Level Agreement"
+      ],
+      "correct": "A",
+      "explanation": "SLA (Service Level Agreement) é o acordo de nível de serviço que garante disponibilidade mínima.",
+      "difficulty": "basico"
+    }
+  ],
+  "networking": [
+    {
+      "question": "Qual serviço Azure conecta redes on-premises com Azure de forma segura?",
+      "options": [
+        "A) Azure Blob Storage",
+        "B) Azure VPN Gateway",
+        "C) Azure App Service",
+        "D) Azure SQL Database"
+      ],
+      "correct": "B",
+      "explanation": "VPN Gateway cria uma conexão segura criptografada entre sua rede local e o Azure através da internet.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "O que é Azure Virtual Network (VNet)?",
+      "options": [
+        "A) Rede pública na internet",
+        "B) Rede privada isolada no Azure",
+        "C) Serviço de armazenamento",
+        "D) Tipo de máquina virtual"
+      ],
+      "correct": "B",
+      "explanation": "VNet é uma rede privada isolada no Azure onde você pode executar recursos de forma segura.",
+      "difficulty": "basico"
+    },
+    {
+      "question": "Qual serviço oferece conexão privada dedicada ao Azure (sem passar pela internet)?",
+      "options": [
+        "A) VPN Gateway",
+        "B) Azure ExpressRoute",
+        "C) Public IP",
+        "D) Load Balancer"
+      ],
+      "correct": "B",
+      "explanation": "ExpressRoute cria conexão privada dedicada entre seu datacenter e Azure, sem passar pela internet pública.",
+      "difficulty": "avancado"
+    }
+  ],
+  "identity": [
+    {
+      "question": "Qual serviço gerencia identidades e acesso no Azure?",
+      "options": [
+        "A) Azure Storage",
+        "B) Azure Functions",
+        "C) Azure AD (Microsoft Entra ID)",
+        "D) Azure Monitor"
+      ],
+      "correct": "C",
+      "explanation": "Azure Active Directory (agora Microsoft Entra ID) é o serviço de gerenciamento de identidade e acesso do Azure.",
+      "difficulty": "basico"
+    },
+    {
+      "question": "O que é MFA (Multi-Factor Authentication)?",
+      "options": [
+        "A) Múltiplos servidores",
+        "B) Autenticação com múltiplos fatores (senha + algo mais)",
+        "C) Múltiplas aplicações",
+        "D) Múltiplos datacenters"
+      ],
+      "correct": "B",
+      "explanation": "MFA requer dois ou mais métodos de verificação (ex: senha + código SMS) para aumentar segurança.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "Qual a diferença entre autenticação e autorização?",
+      "options": [
+        "A) São a mesma coisa",
+        "B) Autenticação verifica quem você é, autorização verifica o que pode fazer",
+        "C) Autorização vem antes da autenticação",
+        "D) Autenticação é apenas para admins"
+      ],
+      "correct": "B",
+      "explanation": "Autenticação verifica identidade (quem você é), autorização verifica permissões (o que pode fazer).",
+      "difficulty": "avancado"
+    }
+  ],
+  "compute": [
+    {
+      "question": "Qual serviço Azure executa código sem gerenciar servidores (serverless)?",
+      "options": [
+        "A) Virtual Machines",
+        "B) Azure Functions",
+        "C) App Service",
+        "D) Container Instances"
+      ],
+      "correct": "B",
+      "explanation": "Azure Functions é serverless - você escreve código que executa sob demanda sem gerenciar infraestrutura.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "Qual serviço é melhor para hospedar aplicações web?",
+      "options": [
+        "A) Azure Blob Storage",
+        "B) Azure App Service",
+        "C) Azure Queue",
+        "D) Azure Table Storage"
+      ],
+      "correct": "B",
+      "explanation": "Azure App Service é PaaS otimizado para hospedar aplicações web, APIs e mobile backends.",
+      "difficulty": "basico"
+    },
+    {
+      "question": "O que é Azure Kubernetes Service (AKS)?",
+      "options": [
+        "A) Serviço de armazenamento",
+        "B) Serviço gerenciado de orquestração de containers",
+        "C) Tipo de VM",
+        "D) Serviço de banco de dados"
+      ],
+      "correct": "B",
+      "explanation": "AKS é serviço gerenciado que simplifica deploy e gerenciamento de aplicações em containers usando Kubernetes.",
+      "difficulty": "avancado"
+    }
+  ],
+  "database": [
+    {
+      "question": "Qual é o banco de dados NoSQL distribuído globalmente do Azure?",
+      "options": [
+        "A) Azure SQL Database",
+        "B) Azure Cosmos DB",
+        "C) Azure MySQL",
+        "D) Azure PostgreSQL"
+      ],
+      "correct": "B",
+      "explanation": "Azure Cosmos DB é banco NoSQL distribuído globalmente com baixa latência e múltiplas APIs.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "Azure SQL Database é um exemplo de qual modelo de serviço?",
+      "options": [
+        "A) IaaS",
+        "B) PaaS",
+        "C) SaaS",
+        "D) On-premises"
+      ],
+      "correct": "B",
+      "explanation": "Azure SQL Database é PaaS - banco de dados relacional totalmente gerenciado.",
+      "difficulty": "basico"
+    }
+  ],
+  "management": [
+    {
+      "question": "O que é Azure Resource Manager (ARM)?",
+      "options": [
+        "A) Serviço de backup",
+        "B) Camada de gerenciamento para criar e gerenciar recursos",
+        "C) Tipo de máquina virtual",
+        "D) Serviço de rede"
+      ],
+      "correct": "B",
+      "explanation": "ARM é a camada de gerenciamento unificada que permite criar, atualizar e deletar recursos de forma consistente.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "Qual ferramenta permite gerenciar Azure via linha de comando?",
+      "options": [
+        "A) Apenas Azure Portal",
+        "B) Azure CLI ou Azure PowerShell",
+        "C) Apenas email",
+        "D) Não é possível"
+      ],
+      "correct": "B",
+      "explanation": "Azure CLI e Azure PowerShell permitem gerenciar recursos Azure via linha de comando.",
+      "difficulty": "basico"
+    },
+    {
+      "question": "O que é Azure Policy?",
+      "options": [
+        "A) Serviço de backup",
+        "B) Serviço para aplicar e garantir conformidade organizacional",
+        "C) Tipo de rede",
+        "D) Serviço de armazenamento"
+      ],
+      "correct": "B",
+      "explanation": "Azure Policy permite criar, atribuir e gerenciar políticas que garantem conformidade dos recursos.",
+      "difficulty": "avancado"
+    }
+  ],
+  "cost": [
+    {
+      "question": "Qual ferramenta estima custos de recursos Azure antes de criá-los?",
+      "options": [
+        "A) Azure Monitor",
+        "B) Calculadora de Preços Azure",
+        "C) Azure Advisor",
+        "D) Service Health"
+      ],
+      "correct": "B",
+      "explanation": "Calculadora de Preços permite estimar custos de serviços Azure antes de implementar.",
+      "difficulty": "basico"
+    },
+    {
+      "question": "O que é TCO (Total Cost of Ownership)?",
+      "options": [
+        "A) Custo apenas do primeiro mês",
+        "B) Custo total de propriedade incluindo todos os gastos",
+        "C) Custo apenas de hardware",
+        "D) Custo apenas de software"
+      ],
+      "correct": "B",
+      "explanation": "TCO inclui todos os custos diretos e indiretos de possuir e operar um sistema ao longo do tempo.",
+      "difficulty": "intermediario"
+    }
+  ],
+  "monitoring": [
+    {
+      "question": "Qual serviço fornece recomendações para otimizar recursos Azure?",
+      "options": [
+        "A) Azure Policy",
+        "B) Azure Advisor",
+        "C) Azure Firewall",
+        "D) Azure VPN"
+      ],
+      "correct": "B",
+      "explanation": "Azure Advisor analisa recursos e fornece recomendações de otimização, segurança, desempenho e custos.",
+      "difficulty": "intermediario"
+    },
+    {
+      "question": "O que é Azure Monitor?",
+      "options": [
+        "A) Serviço de backup",
+        "B) Serviço de monitoramento e análise de telemetria",
+        "C) Tipo de VM",
+        "D) Serviço de rede"
+      ],
+      "correct": "B",
+      "explanation": "Azure Monitor coleta, analisa e age em telemetria de ambientes Azure e on-premises.",
+      "difficulty": "basico"
+    }
+  ]
+}

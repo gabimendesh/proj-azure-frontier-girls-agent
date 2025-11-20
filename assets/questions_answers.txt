@@ -1,0 +1,68 @@
+Qual é a definição de computação em nuvem?,"É a entrega de serviços de computação — incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência — pela Internet ('a nuvem')."
+O que descreve o modelo de responsabilidade compartilhada na nuvem?,"É um modelo que define que o provedor de nuvem é responsável pela segurança da nuvem, enquanto o cliente é responsável pela segurança na nuvem."
+Qual modelo de nuvem envolve recursos de computação que são de propriedade e operados por um provedor de nuvem terceirizado e entregues pela Internet?,Nuvem pública.
+O que é uma nuvem privada?,São recursos de computação usados exclusivamente por uma única empresa ou organização.
+O que é uma nuvem híbrida?,"É uma combinação de nuvens públicas e privadas, unidas por tecnologia que permite que dados e aplicativos sejam compartilhados entre elas."
+Qual é um caso de uso apropriado para uma nuvem pública?,Hospedagem de um site voltado para o público ou desenvolvimento e teste de aplicativos sem a necessidade de hardware local.
+Qual é um caso de uso apropriado para uma nuvem privada?,"Aplicações que exigem alta segurança e controle, ou dados que estão sujeitos a regulamentações rígidas de soberania de dados."
+Qual é um caso de uso apropriado para uma nuvem híbrida?,Usar a nuvem pública para cargas de trabalho variáveis (cloud bursting) enquanto mantém dados confidenciais na nuvem privada.
+O que significa o modelo baseado em consumo na computação em nuvem?,"Significa que os usuários pagam apenas pelos recursos de nuvem que utilizam, sem custos iniciais de infraestrutura."
+O que é computação sem servidor (serverless)?,É um modelo de desenvolvimento nativo da nuvem que permite aos desenvolvedores criar e executar aplicativos sem gerenciar servidores.
+Qual é o benefício da alta disponibilidade na nuvem?,"Garante que os aplicativos e os dados estejam acessíveis aos usuários finais com tempo de inatividade mínimo, mesmo em caso de falhas."
+O que é escalabilidade na nuvem?,"É a capacidade de aumentar ou diminuir os recursos de TI conforme a demanda, seja verticalmente (aumentando a capacidade de um recurso) ou horizontalmente (adicionando mais recursos)."
+Qual benefício da nuvem se refere à capacidade do sistema de se recuperar de falhas e continuar funcionando?,Confiabilidade (ou resiliência).
+"O que significa o benefício da 'facilidade de previsão' na nuvem, especialmente em relação a custos?","Refere-se à capacidade de prever os custos que serão incorridos com base no uso previsto dos serviços, usando ferramentas como a Calculadora de Preços."
+Como a nuvem oferece benefícios de segurança e governança?,"Através de um amplo conjunto de políticas, tecnologias e controles que fortalecem a postura de segurança geral e facilitam a conformidade com regulamentações."
+O que é Infraestrutura como Serviço (IaaS)?,"É um tipo de serviço de nuvem que oferece recursos essenciais de computação, armazenamento e rede sob demanda, em uma base de pagamento conforme o uso."
+O que é Plataforma como Serviço (PaaS)?,"É um ambiente completo de desenvolvimento e implantação na nuvem, com recursos que permitem entregar desde aplicativos simples até aplicativos empresariais sofisticados."
+O que é Software como Serviço (SaaS)?,"É um método para entregar aplicativos de software pela Internet, sob demanda e, normalmente, em uma base de assinatura."
+Qual tipo de serviço de nuvem é mais adequado para uma startup que deseja implantar rapidamente uma máquina virtual para hospedar seu aplicativo?,IaaS (Infraestrutura como Serviço).
+"Uma equipe de desenvolvimento que precisa de um ambiente para criar, testar e implantar um aplicativo web sem gerenciar o sistema operacional subjacente se beneficiaria de qual serviço de nuvem?",PaaS (Plataforma como Serviço).
+"Um software de e-mail baseado na web, como o Microsoft 365, é um exemplo de qual tipo de serviço de nuvem?",SaaS (Software como Serviço).
+"No Azure, o que é uma região?",É uma área geográfica no globo que contém um ou mais datacenters.
+O que são pares de regiões (region pairs) no Azure?,"Consiste em duas regiões dentro da mesma geografia, garantindo que as atualizações sejam aplicadas sequencialmente e oferecendo recuperação de desastres."
+O que são zonas de disponibilidade (Availability Zones) no Azure?,"São locais físicos exclusivos dentro de uma região do Azure, cada um com energia, refrigeração e rede independentes para fornecer alta disponibilidade."
+O que é um grupo de recursos (resource group) do Azure?,É um contêiner que contém recursos relacionados para uma solução do Azure.
+O que é uma assinatura (subscription) do Azure?,"É uma unidade de gerenciamento, cobrança e escala que agrupa contas de usuário e os recursos que foram criados por essas contas."
+O que são grupos de gerenciamento (management groups) no Azure?,"São contêineres que ajudam a gerenciar o acesso, as políticas e a conformidade em várias assinaturas."
+"Qual é a hierarquia de escopo no Azure, do mais amplo para o mais específico?","Grupos de gerenciamento, Assinaturas, Grupos de recursos e Recursos."
+Quais são os três tipos de computação comparados no guia AZ-900?,"Contêineres, máquinas virtuais e funções."
+O que são os Conjuntos de Dimensionamento de Máquinas Virtuais (Virtual Machine Scale Sets) do Azure?,"Permitem criar e gerenciar um grupo de VMs com balanceamento de carga, onde o número de instâncias de VM pode aumentar ou diminuir automaticamente em resposta à demanda."
+O que é a Área de Trabalho Virtual do Azure (Azure Virtual Desktop)?,É um serviço de virtualização de área de trabalho e aplicativos executado na nuvem.
+Qual é a finalidade de uma Rede Virtual do Azure (Azure VNet)?,"Permite que muitos tipos de recursos do Azure, como Máquinas Virtuais, se comuniquem com segurança entre si, com a Internet e com redes locais."
+O que é o emparelhamento (peering) de redes virtuais no Azure?,"É um mecanismo que conecta duas Redes Virtuais do Azure na mesma região ou em regiões diferentes, permitindo que elas se comuniquem como se fossem uma só."
+Qual serviço do Azure fornece uma conexão privada dedicada entre seu datacenter local e um datacenter do Azure?,Azure ExpressRoute.
+Qual serviço do Azure envia tráfego criptografado entre uma rede virtual do Azure e sua localização local pela Internet pública?,Gateway de VPN do Azure (Azure VPN Gateway).
+Qual a diferença entre um ponto de extremidade público e um privado no Azure?,"Um ponto de extremidade público tem um endereço IP público e pode ser acessado pela Internet, enquanto um ponto de extremidade privado usa um endereço IP privado de sua VNet para se conectar a um serviço do Azure."
+Quais são as camadas de armazenamento (storage tiers) disponíveis para o armazenamento de blobs do Azure?,"As camadas são Hot (acesso frequente), Cool (acesso infrequente), Cold (acesso raro) e Archive (arquivamento)."
+Que ferramenta de linha de comando é usada para copiar dados de e para contas de armazenamento do Azure?,AzCopy.
+Qual ferramenta do Azure oferece uma interface gráfica para gerenciar arquivos em sua conta de armazenamento do Azure?,Gerenciador de Armazenamento do Azure (Azure Storage Explorer).
+Qual serviço é usado para centralizar e armazenar em cache compartilhamentos de arquivos do Azure em um Windows Server local?,Sincronização de Arquivos do Azure (Azure File Sync).
+"Qual serviço centralizado do Azure é usado para avaliar e migrar servidores, aplicativos e dados locais para a nuvem?",Migrações para Azure (Azure Migrate).
+O que é o Azure Data Box?,É um dispositivo físico fornecido pela Microsoft para transferir grandes quantidades de dados para o Azure quando a rede não é uma opção viável.
+Qual serviço de diretório do Azure fornece gerenciamento de identidade e acesso para aplicativos baseados em nuvem?,Microsoft Entra ID.
+O que significa MFA?,"Autenticação Multifator (Multi-Factor Authentication), um processo de segurança que requer mais de um método de autenticação."
+Qual tipo de identidade externa no Azure é usado para colaboração com usuários de outras organizações?,B2B (business-to-business).
+Qual tipo de identidade externa no Azure é usado para permitir que clientes se inscrevam e façam login em seus aplicativos?,B2C (business-to-customer).
+O que é o Acesso Condicional (Conditional Access) do Microsoft Entra?,"É uma ferramenta que usa sinais (como usuário, localização, dispositivo) para tomar decisões e aplicar políticas organizacionais para acesso a recursos."
+O que é o RBAC (controle de acesso baseado em função) do Azure?,"É um sistema que permite o gerenciamento de acesso refinado aos recursos do Azure, atribuindo permissões a usuários, grupos e aplicativos em um determinado escopo."
+Qual é o conceito central do modelo de segurança Confiança Zero (Zero Trust)?,"O conceito é 'nunca confiar, sempre verificar', tratando cada solicitação de acesso como se originasse de uma rede não controlada."
+Qual é a finalidade do modelo de defesa em profundidade (defense in depth)?,"É uma estratégia de segurança em camadas que visa retardar o avanço de um ataque, fornecendo múltiplos níveis de proteção."
+Qual é a principal finalidade do Microsoft Defender para Nuvem (Microsoft Defender for Cloud)?,É uma ferramenta de gerenciamento da postura de segurança e proteção contra ameaças que fortalece a segurança de cargas de trabalho na nuvem e híbridas.
+Qual ferramenta do Azure ajuda a estimar os custos de provisionamento de recursos antes de implantá-los?,A Calculadora de Preços (Pricing Calculator).
+Qual calculadora do Azure é usada para estimar a economia de custos ao migrar cargas de trabalho locais para o Azure?,A Calculadora de TCO (Custo Total de Propriedade).
+Qual é a finalidade das marcas (tags) no Azure?,"São pares de nome/valor usados para organizar recursos, geralmente para gerenciamento de custos ou automação."
+"Qual serviço do Azure ajuda a gerenciar, controlar e proteger dados em todo o seu patrimônio digital?",Microsoft Purview.
+O que o Azure Policy permite que você faça?,"Permite criar, atribuir e gerenciar políticas que impõem regras e efeitos sobre seus recursos para que permaneçam em conformidade com os padrões corporativos."
+Qual é a finalidade dos bloqueios de recursos (resource locks) no Azure?,Impedem que os usuários excluam ou modifiquem acidentalmente recursos críticos.
+"Qual ferramenta baseada na web fornece uma interface gráfica para criar, gerenciar e monitorar recursos do Azure?",O portal do Azure (Azure Portal).
+O Azure _____ fornece uma interface de linha de comando baseada em navegador para gerenciar recursos do Azure.,Cloud Shell
+Quais duas interfaces de linha de comando estão disponíveis no Azure Cloud Shell?,A CLI (interface de linha de comando) do Azure e o Azure PowerShell.
+"Qual serviço do Azure estende o gerenciamento e os serviços do Azure para qualquer infraestrutura, incluindo ambientes locais e multinuvem?",Azure Arc.
+O que é Infraestrutura como Código (IaC)?,"É o gerenciamento da infraestrutura (redes, máquinas virtuais, etc.) em um modelo descritivo, usando arquivos de definição legíveis por máquina."
+O que são modelos do ARM (Azure Resource Manager)?,São arquivos JSON que definem a infraestrutura e a configuração para sua implantação no Azure de forma declarativa.
+Qual serviço do Azure atua como um consultor de nuvem personalizado para ajudar a otimizar suas implantações do Azure?,Assistente do Azure (Azure Advisor).
+"Qual serviço do Azure fornece informações sobre problemas que afetam seus recursos do Azure, como interrupções de serviço ou manutenções planejadas?",Integridade do Serviço do Azure (Azure Service Health).
+"Qual é o serviço de monitoramento abrangente no Azure que coleta, analisa e age sobre a telemetria de seus ambientes de nuvem e locais?",Azure Monitor.
+"Dentro do Azure Monitor, qual recurso é usado para executar consultas em grandes volumes de dados de log?",Log Analytics.
+Qual recurso do Azure Monitor é uma ferramenta de Gerenciamento de Desempenho de Aplicativos (APM) para desenvolvedores da web?,Application Insights.
