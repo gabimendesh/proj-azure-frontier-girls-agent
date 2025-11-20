@@ -206,7 +206,7 @@ Explica conceitos do Azure de forma didática:
 ## 📂 Estrutura do Repositório
 
 ```
-azure-project/
+proj-azure-frontier-girls-agent/
 │
 ├── README.md                           # Este arquivo
 ├── INSTRUCOES_AGENTE.md               # Instruções do sistema usadas no agente
@@ -217,11 +217,7 @@ azure-project/
 │   ├── desmitifying_azure.txt        # Base de conhecimento: Conceitos
 │   ├── questions_answers.txt         # Base de conhecimento: Q&A
 │   └── quiz_database.json            # Base de 50+ perguntas
-│
-└── documentação/                      # Guias adicionais (opcional)
-    ├── GUIA_CODE_INTERPRETER.md
-    ├── KNOWLEDGE_BASE.md
-    └── ROTEIRO_CONVERSAS_PRINTS.md
+
 ```
 
 ---
@@ -414,3 +410,4 @@ Este projeto foi desenvolvido para fins educacionais como parte do Azure Frontie
 [![AI](https://img.shields.io/badge/AI-Foundry-brightgreen?style=for-the-badge)](https://ai.azure.com)
 
 </div>
+
